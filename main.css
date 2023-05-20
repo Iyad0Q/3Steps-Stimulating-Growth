@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: right;
+  background-color: #53AE6E;
+  color: white;
+}
+body a {
+  color: white;
+}
+
+header {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 20px;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+header nav {
+  position: sticky;
+  background-color: #3a7b4d;
+  padding: 15px;
+  margin: 20px 0;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
