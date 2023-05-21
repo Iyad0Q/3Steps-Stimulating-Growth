@@ -6,31 +6,94 @@
 
 body {
   text-align: right;
-  background-color: #53AE6E;
-  color: white;
-}
-body a {
-  color: white;
+  background-color: white;
 }
 
 header {
   max-width: 500px;
+  min-height: 100px;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 20px;
 }
-header h1 {
-  text-align: center;
-  margin-bottom: 15px;
-}
 header nav {
-  position: sticky;
+  position: fixed;
   background-color: #3a7b4d;
   padding: 15px;
-  margin: 20px 0;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 header ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
+}
+header ul li {
+  float: left;
+  display: block;
+  margin: 0 15px;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+  color: white;
+}
+header ul li a:hover {
+  margin: 15px;
+  text-decoration: underline;
+}
+header h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #3a7b4d;
+  text-decoration: underline;
+}
+
+main p {
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #53AE6E;
+  border-radius: 20px;
+  color: white;
+}
+main h2 {
+  font-size: 28px;
+  margin: 20px;
+}
+main .Tsteps h3 {
+  font-size: 25px;
+}
+main .Tsteps iframe {
+  height: 350px;
+  width: 650px;
+}
+main .sources {
+  margin-bottom: 200px;
+}
+main .sources a {
+  display: block;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #53AE6E;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  float: right;
+  transition: all 0.5s;
+}
+main .sources a:hover {
+  background-color: #4a9d63;
+  text-decoration: underline;
+}
+main .sources a:active {
+  background-color: #3a7b4d;
+  border: 2px solid black;
 }/*# sourceMappingURL=main.css.map */
