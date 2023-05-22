@@ -21,7 +21,17 @@ header {
     overflow: hidden;
     margin-top: 20px;
 
-    
+    #navMenu {
+        display: block;
+        font-size: 30px;
+        margin: 5px;
+        cursor: pointer;  
+
+        &.active {
+            color: $font-color2;
+        }
+    }
+
 
     nav {
         position: fixed;
@@ -91,23 +101,24 @@ main {
         iframe{
             height: 350px;
             width: 650px;
+            border: 2px solid black;
+            border-radius: 5px;
         }
     }
 
     .sources {
-        margin-bottom: 200px;
+        margin-bottom: 50px;
         a {
             display: block;
-            margin: 5px;
+            margin: 5px auto;
             text-decoration: none;
             color: $font-color2;
             font-size: 20px;
+            width: 50%;
             font-weight: bold;
             background-color: $div-color;
-            width: 20%;
             padding: 20px;
             text-align: center;
-            float: right;
             transition: all 0.5s;
     
 
@@ -123,6 +134,18 @@ main {
         }
     }
 
+}
+
+footer {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    li, p {
+        font-size: 20px;
+        margin: 5px;
+    }
 }
 
 

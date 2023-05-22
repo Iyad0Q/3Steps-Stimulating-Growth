@@ -1,3 +1,16 @@
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 30px;
+    margin: 5px;
+  }
+  header nav {
+    display: none;
+  }
+  .Tsteps iframe {
+    max-width: 350px;
+    max-height: 200px;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -15,6 +28,15 @@ header {
   margin: 0 auto;
   overflow: hidden;
   margin-top: 20px;
+}
+header #navMenu {
+  display: block;
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+header #navMenu.active {
+  color: white;
 }
 header nav {
   position: fixed;
@@ -71,22 +93,23 @@ main .Tsteps h3 {
 main .Tsteps iframe {
   height: 350px;
   width: 650px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 main .sources {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 main .sources a {
   display: block;
-  margin: 5px;
+  margin: 5px auto;
   text-decoration: none;
   color: white;
   font-size: 20px;
+  width: 50%;
   font-weight: bold;
   background-color: #53AE6E;
-  width: 20%;
   padding: 20px;
   text-align: center;
-  float: right;
   transition: all 0.5s;
 }
 main .sources a:hover {
@@ -96,4 +119,12 @@ main .sources a:hover {
 main .sources a:active {
   background-color: #3a7b4d;
   border: 2px solid black;
+}
+
+footer h2 {
+  font-size: 30px;
+}
+footer li, footer p {
+  font-size: 20px;
+  margin: 5px;
 }/*# sourceMappingURL=main.css.map */

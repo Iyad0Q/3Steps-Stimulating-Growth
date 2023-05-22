@@ -1,4 +1,32 @@
 $div-color: #53AE6E;
 $body-color: white; 
 $font-color1: $div-color;
-$font-color2: white;
+$font-color2: $body-color;
+
+
+@media screen and (max-width: 600px) {
+    header {
+        h1 {
+            font-size: 30px;
+            margin: 5px;
+        }
+
+        nav {
+            display: none;
+        }
+
+    }
+
+    .Tsteps {
+        iframe {
+            max-width: 350px;
+            max-height: 200px;
+        }
+    }
+
+    .sources {
+        a {
+
+        }
+    }
+}
