@@ -10,8 +10,6 @@
 body {
     text-align: right;
     background-color: $body-color;
-
-
 }
 
 header {
@@ -21,18 +19,6 @@ header {
     overflow: hidden;
     margin-top: 20px;
 
-    #navMenu {
-        display: block;
-        font-size: 30px;
-        margin: 5px;
-        cursor: pointer;  
-
-        &.active {
-            color: $font-color2;
-        }
-    }
-
-
     nav {
         position: fixed;
         background-color: darken($div-color, 15%);
@@ -40,7 +26,6 @@ header {
         top: 0;
         left: 0;
         width: 100%;
-
     }
 
     ul {
